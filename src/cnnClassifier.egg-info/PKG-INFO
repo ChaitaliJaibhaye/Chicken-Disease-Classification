@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/ChaitaliJaibhaye/Chicken-Disease-Classification
+Author: ChaitaliJaibhaye
+Author-email: chaitali.jaybhaye22005@gmail.com
+Project-URL: Bug Tracker, https://github.com/ChaitaliJaibhaye/Chicken-Disease-Classification/issues
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: summary
