@@ -1,0 +1,17 @@
+chicken311/
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+artifacts/
+logs/
+
+*.egg-info/
+
+Datasets/
+
+.vscode/
