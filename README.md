@@ -35,27 +35,8 @@ The training workflow is broken into independent, reproducible stages managed by
 
 Each stage is a standalone pipeline script under src/cnnClassifier/pipeline/, so any stage can be re-run in isolation, and DVC will only re-run stages whose dependencies changed.
 
-Project Structure
-Chicken-Disease-Classification/
-├── config/
-│   └── config.yaml            # Paths & artifact locations for each pipeline stage
-├── src/cnnClassifier/
-│   ├── components/            # Core logic (data ingestion, model prep, training, callbacks)
-│   ├── config/                # Configuration manager
-│   ├── constants/              # Global constants (paths to config/params files)
-│   ├── entity/                 # Config data classes
-│   ├── pipeline/               # stage_01 → stage_04 pipeline scripts
-│   └── utils/                  # Common helper functions
-├── templates/                  # HTML templates for the Flask web app
-├── .github/workflows/          # CI/CD workflow
-├── app.py                      # Flask application (prediction API + UI)
-├── main.py                     # Runs the full training pipeline end-to-end
-├── dvc.yaml                    # DVC pipeline stage definitions
-├── params.yaml                 # Model/training hyperparameters
-├── scores.json                 # Evaluation metrics (loss/accuracy)
-├── setup.py                    # Packages the project as an installable module
-├── template.py                 # Script to scaffold the project structure
-└── requirements.txt            # Python dependencies
+<img width="799" height="542" alt="image" src="https://github.com/user-attachments/assets/8316e319-c80a-4c13-804b-35a9e6120ac6" />
+
 Tech Stack
 Python, TensorFlow / Keras — model building & training
 VGG16 — pretrained CNN backbone (transfer learning)
